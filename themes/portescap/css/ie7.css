@@ -1,0 +1,129 @@
+.mobile-only {
+	display:none;
+}
+
+.desktop-only {
+	display:block;
+}
+.row-fluid [class*="span"].video-thumb {
+	min-height:118px;
+}
+.video-thumb h4 {
+	text-align:center;
+	cursor:pointer;
+	color:#999;
+	font-size:11px;
+	padding:0;
+	margin:0;
+}
+
+.tab {
+	background-repeat:no-repeat;
+	background-image:url('../images/ie-tab.jpg');
+	border:none;
+	dipslay:block;
+	position:relative;
+	width:211px;
+	text-align:center;
+	padding:20px 0 10px 0;
+}
+
+.go {
+	background-repeat:no-repeat;
+	background-image:url('../images/ie-go.png');
+	width:42px;
+	height:20px;
+	border:none;
+	padding:0;
+	background-color:transparent;
+	display:block;
+}
+
+.related-item a h4 {
+	width:94px;
+}
+
+table.views-table {
+	width:100%;
+}
+
+.views-table tr td:first-child, .views-table tr th:first-child {
+	text-align:left;
+}
+
+#webform-component-left-column, #webform-component-right-column {
+	float:left;
+	position:relative;
+	width:47.5%;
+}
+
+.webform-client-form fieldset#webform-component-left-column {
+	margin-right:5%;
+}
+
+.webform-container-inline .form-radios {
+	display:block;
+}
+
+.row-fluid .view-application-list .span6 {
+	width:47.9%;
+}
+
+.view-distributor-locator .view-content {
+	position:relative;
+	clear:both;
+}
+.view-distributor-locator .view-filters {
+	height:150px;
+}
+
+#views-exposed-form-search-results-page input.form-submit {
+	height:18px;
+	width:17px;
+}
+
+ul.menu li.leaf {
+	list-style:none!important;
+	list-style-image:none!important;
+}
+
+#header_upper #views-exposed-form-search-results-page .views-exposed-form #edit-title-wrapper.views-exposed-widget {
+	float:right;
+}
+
+#header_uppser #block-views-exp-search-results-page,
+#header_upper .views-exposed-form {
+	width:120px;
+}
+
+#header .menu ul {
+	left:0px;
+	top:15px;
+}
+
+#homepage-slideshow {
+	height:382px;
+}
+
+.related-item, .related-item h4, .related-item .go {
+	cursor:pointer;
+}
+
+.views-slideshow-controls-bottom {
+	top:380px;
+}
+
+.views-slideshow-pager-field-item {
+	width:20px;
+	height:20px;
+	float:left;
+	position:relative;
+}
+
+th {
+	width:auto;
+}
+
+.product-item {
+	background-position-x: 0;
+}

@@ -1,0 +1,4 @@
+<?php
+function overlayjs_init() {
+	drupal_add_js(drupal_get_path('module', 'overlayjs') . '/overlayjs.js', array('scope' => 'footer'));
+}

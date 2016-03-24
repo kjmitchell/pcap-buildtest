@@ -1,0 +1,25 @@
+<?php /*
+	echo '<pre>';
+	print_r($row);
+	echo '</pre>'; */
+?>
+
+<?php
+$burst = '';
+if(!empty($row->field_field_new[0]['raw']['value'])) {
+	$burst = 'yes';
+}
+$nodepath = $row->field_field_product_group[0]['rendered']['#href'];
+$theTitle = $row->field_field_product_group[0]['rendered']['#title'];
+$languagepaths = translation_path_get_translations($nodepath);
+$currentlanguage = i18n_langcode();
+$path = $languagepaths[$currentlanguage];
+$options = array('absolute' => TRUE);
+$theUrl = url($path, $options);
+?>
+<?php if($path) { ?>
+	<span class="new-product-burst <?php echo $burst; ?>"></span><a href="<?php echo $theUrl; ?>"><?php echo $theTitle; ?></a>
+<?php } else {
+	print $output; /* drupal views default output for field */
+}
+?>

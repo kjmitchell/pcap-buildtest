@@ -1,0 +1,32 @@
+name = Portescap Catalog Builder Custom Theme
+description = Desktop/tablet theme for Portescap Catalog Builder website | K.Brenes/J.Herrera  - Hangar 2015
+core = 7.x
+
+stylesheets[all][] = style/portescap.css
+; stylesheets[print][] = style/print.css
+; Set the conditional stylesheets that are processed by IE.
+; stylesheets-conditional[IE][all][] = style/ie.css
+; stylesheets-conditional[lt IE 9][all][] = ie9-below.css
+
+scripts[] = scripts/vendor.js
+scripts[] = scripts/portescap.custom.js
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer] = Footer
+regions[footer_menu] = Footer menu
+
+

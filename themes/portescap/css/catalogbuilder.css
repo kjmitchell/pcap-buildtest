@@ -1,0 +1,1108 @@
+.pull-right {
+  float: right !important; }
+
+.pull-left {
+  float: left !important; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.hidden {
+  display: none !important; }
+
+.affix {
+  position: fixed; }
+
+.catalog-box {
+  background: #FFFFFF;
+  border: 1px solid #c2c2c1;
+  border-radius: 5px; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-justify {
+  text-align: justify; }
+
+.text-nowrap {
+  white-space: nowrap; }
+
+.text-lowercase {
+  text-transform: lowercase; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-capitalize {
+  text-transform: capitalize; }
+
+/*
+==================== clear floats ====================
+*/
+/*
+==================== CENTER ELEMENTS ====================
+*/
+#container {
+  width: 960px;
+  margin: 0 auto; }
+
+/*
+==================== PERCENTAGE CALCULATION ====================
+*/
+@font-face {
+  font-family: "HelveticaNeueLTStd-Th";
+  src: url("../../portescap/fonts/HelveticaNeueLTStd-Th.eot?#iefix") format("embedded-opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Th.otf") format("opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Th.woff") format("woff"), url("../../portescap/fonts/HelveticaNeueLTStd-Th.ttf") format("truetype"), url("../../portescap/fonts/HelveticaNeueLTStd-Th.svg#HelveticaNeueLTStd-Th") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Lt";
+  src: url("../../portescap/fonts/HelveticaNeueLTStd-Lt.eot?#iefix") format("embedded-opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Lt.otf") format("opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Lt.woff") format("woff"), url("../../portescap/fonts/HelveticaNeueLTStd-Lt.ttf") format("truetype"), url("../../portescap/fonts/HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Md";
+  src: url("../../portescap/fonts/HelveticaNeueLTStd-Md.eot?#iefix") format("embedded-opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Md.otf") format("opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Md.woff") format("woff"), url("../../portescap/fonts/HelveticaNeueLTStd-Md.ttf") format("truetype"), url("../../portescap/fonts/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Bd";
+  src: url("../../portescap/fonts/HelveticaNeueLTStd-Bd.eot?#iefix") format("embedded-opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Bd.otf") format("opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Bd.woff") format("woff"), url("../../portescap/fonts/HelveticaNeueLTStd-Bd.ttf") format("truetype"), url("../../portescap/fonts/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Hv";
+  src: url("../../portescap/fonts/HelveticaNeueLTStd-Hv.eot?#iefix") format("embedded-opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Hv.otf") format("opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Hv.woff") format("woff"), url("../../portescap/fonts/HelveticaNeueLTStd-Hv.ttf") format("truetype"), url("../../portescap/fonts/HelveticaNeueLTStd-Hv.svg#HelveticaNeueLTStd-Hv") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Roman";
+  src: url("../../portescap/fonts/HelveticaNeueLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Roman.otf") format("opentype"), url("../../portescap/fonts/HelveticaNeueLTStd-Roman.woff") format("woff"), url("../../portescap/fonts/HelveticaNeueLTStd-Roman.ttf") format("truetype"), url("../../portescap/fonts/HelveticaNeueLTStd-Roman.svg#HelveticaNeueLTStd-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.frm .form-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -3px; }
+  .frm .form-item .description {
+    display: none; }
+
+.frm .form-text {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  padding: 9px 0 5px 17px;
+  color: #666666;
+  font-size: 14px; }
+  .frm .form-text:focus::-webkit-input-placeholder {
+    opacity: 0; }
+  .frm .form-text::-webkit-input-placeholder {
+    text-transform: uppercase;
+    opacity: .9;
+    transition: opacity 0.3s; }
+  .frm .form-text:focus:-moz-placeholder {
+    opacity: 0; }
+  .frm .form-text:-moz-placeholder {
+    text-transform: uppercase;
+    opacity: .9;
+    transition: opacity 0.3s; }
+  .frm .form-text:focus::-moz-placeholder {
+    opacity: 0; }
+  .frm .form-text::-moz-placeholder {
+    text-transform: uppercase;
+    opacity: .9;
+    transition: opacity 0.3s; }
+  .frm .form-text:focus:-ms-input-placeholder {
+    opacity: 0; }
+  .frm .form-text:-ms-input-placeholder {
+    text-transform: uppercase;
+    opacity: .9;
+    transition: opacity 0.3s; }
+
+.frm .pc-checkbox {
+  display: inline-block; }
+  .frm .pc-checkbox label {
+    font-family: "HelveticaNeueLTStd-Md";
+    font-size: 13px;
+    margin: 0 0 0 5px; }
+
+.frm.modal-form {
+  margin-top: 69px; }
+  .frm.modal-form ::-webkit-input-placeholder {
+    color: #FFFFFF; }
+  .frm.modal-form :-moz-placeholder {
+    color: #FFFFFF; }
+  .frm.modal-form ::-moz-placeholder {
+    color: #FFFFFF; }
+  .frm.modal-form :-ms-input-placeholder {
+    color: #FFFFFF; }
+  .frm.modal-form .field-text {
+    background: transparent;
+    color: #FFFFFF; }
+  .frm.modal-form .btn-primary, .frm.modal-form html.js body.overlay input[type="submit"], html.js body.overlay .frm.modal-form input[type="submit"], .frm.modal-form html.js body.overlay #edit-cancel, html.js body.overlay .frm.modal-form #edit-cancel {
+    height: 31px;
+    line-height: 23px; }
+
+input[type="checkbox"] {
+  margin: 0;
+  vertical-align: middle;
+  position: absolute;
+  top: 4px;
+  visibility: hidden; }
+  input[type="checkbox"]:checked + label:before, input[type="checkbox"][checked="checked"] + label:before {
+    content: "x";
+    line-height: 12px;
+    font-size: 15px;
+    text-align: center; }
+  input[type="checkbox"]:hover, input[type="checkbox"]:focus {
+    border-color: #fff; }
+  input[type="checkbox"] + label {
+    padding: 0 0 0 23px;
+    font-family: "HelveticaNeueLTStd-Th";
+    cursor: pointer;
+    transition: color 0.3s;
+    font-size: 13px; }
+    input[type="checkbox"] + label:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0px;
+      width: 10px;
+      height: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      transition: background-color 0.3s; }
+
+.btn, html.js body.overlay input[type="submit"], html.js body.overlay #edit-cancel {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 5px; }
+
+.btn-primary, html.js body.overlay input[type="submit"], html.js body.overlay #edit-cancel {
+  font-family: "HelveticaNeueLTStd-Bd";
+  background: #ed2028;
+  color: #ffffff;
+  border: 1px solid #999999;
+  padding: 8px 33px 5px; }
+
+.btn-dropdown {
+  font-family: "HelveticaNeueLTStd-Md";
+  background: transparent;
+  border: 1px solid #ed2028;
+  color: #ed2028;
+  padding: 8px 10px;
+  box-sizing: border-box; }
+
+body {
+  font-family: "HelveticaNeueLTStd-Lt", Arial, sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #ed2028; }
+
+.primary-link {
+  font-family: "HelveticaNeueLTStd-Bd";
+  font-size: 13px;
+  line-height: 17px;
+  color: #ed2028; }
+
+.secondary-link {
+  font-family: "HelveticaNeueLTStd-Roman";
+  font-size: 14px;
+  color: #333333;
+  text-decoration: underline; }
+
+.main-wrapper {
+  margin: 0 0 1px; }
+
+#block-system-navigation {
+  display: none; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%; }
+
+.catalogbuilder body {
+  /* Margin bottom by footer height */
+  margin-bottom: 63px; }
+
+.overlay-open body {
+  /* Margin bottom by footer height */
+  margin-bottom: 0; }
+
+footer.main-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 63px;
+  /* Set the fixed height of the footer here */
+  background-color: #f5f5f5; }
+
+.modalBox {
+  position: absolute;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  color: #FFFFFF;
+  text-align: center; }
+  .modalBox h2, .modalBox p {
+    color: #FFFFFF; }
+  .modalBox h2 {
+    margin: 0 0 20px; }
+  .modalBox .btn-modal {
+    display: block;
+    background: url("../images/close_icon.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    text-indent: -999999px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    background-size: 100% 200%; }
+    .modalBox .btn-modal:hover {
+      background-position: 0 101%; }
+  .modalBox .modal_content {
+    display: inline-block;
+    text-align: left; }
+
+html.js body.overlay {
+  padding: 0; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog .form-item-title label,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog .form-item-title label,
+  html.js body.overlay.node-type-catalog-b-sections .form-item-title label,
+  html.js body.overlay.page-node-add-catalog-b-sections .form-item-title label,
+  html.js body.overlay.page-node-3227 .form-item-title label,
+  html.js body.overlay.page-node-5205 .form-item-title label,
+  html.js body.overlay.page-node-3239 .form-item-title label {
+    display: none; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog .form-item-title,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog .form-actions,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog .form-item-title,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog .form-actions,
+  html.js body.overlay.node-type-catalog-b-sections .form-item-title,
+  html.js body.overlay.node-type-catalog-b-sections .form-actions,
+  html.js body.overlay.page-node-add-catalog-b-sections .form-item-title,
+  html.js body.overlay.page-node-add-catalog-b-sections .form-actions,
+  html.js body.overlay.page-node-3227 .form-item-title,
+  html.js body.overlay.page-node-3227 .form-actions,
+  html.js body.overlay.page-node-5205 .form-item-title,
+  html.js body.overlay.page-node-5205 .form-actions,
+  html.js body.overlay.page-node-3239 .form-item-title, html.js body.overlay.page-node-3239 .form-actions {
+    margin-right: 30px; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay,
+  html.js body.overlay.node-type-catalog-b-sections #overlay,
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay,
+  html.js body.overlay.page-node-3227 #overlay,
+  html.js body.overlay.page-node-5205 #overlay,
+  html.js body.overlay.page-node-3239 #overlay {
+    margin-top: 15%; }
+    @media (max-width: 920px) {
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay,
+      html.js body.overlay.node-type-catalog-b-sections #overlay,
+      html.js body.overlay.page-node-add-catalog-b-sections #overlay,
+      html.js body.overlay.page-node-3227 #overlay,
+      html.js body.overlay.page-node-5205 #overlay,
+      html.js body.overlay.page-node-3239 #overlay {
+        width: 100%; } }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #edit-submit,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #edit-submit,
+  html.js body.overlay.node-type-catalog-b-sections #edit-submit,
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-submit,
+  html.js body.overlay.page-node-3227 #edit-submit,
+  html.js body.overlay.page-node-5205 #edit-submit,
+  html.js body.overlay.page-node-3239 #edit-submit {
+    margin-right: 20px; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay,
+  html.js body.overlay.node-type-catalog-b-sections #overlay,
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay,
+  html.js body.overlay.page-node-3227 #overlay,
+  html.js body.overlay.page-node-5205 #overlay,
+  html.js body.overlay.page-node-3239 #overlay {
+    display: block;
+    position: static; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-titlebar,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-titlebar,
+  html.js body.overlay.node-type-catalog-b-sections #overlay-titlebar,
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay-titlebar,
+  html.js body.overlay.page-node-3227 #overlay-titlebar,
+  html.js body.overlay.page-node-5205 #overlay-titlebar,
+  html.js body.overlay.page-node-3239 #overlay-titlebar {
+    margin-top: 50px;
+    position: static; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-titlebar h1,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-titlebar h1,
+    html.js body.overlay.node-type-catalog-b-sections #overlay-titlebar h1,
+    html.js body.overlay.page-node-add-catalog-b-sections #overlay-titlebar h1,
+    html.js body.overlay.page-node-3227 #overlay-titlebar h1,
+    html.js body.overlay.page-node-5205 #overlay-titlebar h1,
+    html.js body.overlay.page-node-3239 #overlay-titlebar h1 {
+      font-size: 40px;
+      padding-bottom: 0; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-close-wrapper,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-close-wrapper,
+  html.js body.overlay.node-type-catalog-b-sections #overlay-close-wrapper,
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay-close-wrapper,
+  html.js body.overlay.page-node-3227 #overlay-close-wrapper,
+  html.js body.overlay.page-node-5205 #overlay-close-wrapper,
+  html.js body.overlay.page-node-3239 #overlay-close-wrapper {
+    position: static; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-close-wrapper a,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-close-wrapper a,
+    html.js body.overlay.node-type-catalog-b-sections #overlay-close-wrapper a,
+    html.js body.overlay.page-node-add-catalog-b-sections #overlay-close-wrapper a,
+    html.js body.overlay.page-node-3227 #overlay-close-wrapper a,
+    html.js body.overlay.page-node-5205 #overlay-close-wrapper a,
+    html.js body.overlay.page-node-3239 #overlay-close-wrapper a {
+      position: fixed;
+      top: 8px;
+      right: 5px;
+      background: none;
+      width: 25px;
+      height: 25px; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-close-wrapper a:hover:after,
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-close-wrapper a:hover:before,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-close-wrapper a:hover:after,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-close-wrapper a:hover:before,
+      html.js body.overlay.node-type-catalog-b-sections #overlay-close-wrapper a:hover:after,
+      html.js body.overlay.node-type-catalog-b-sections #overlay-close-wrapper a:hover:before,
+      html.js body.overlay.page-node-add-catalog-b-sections #overlay-close-wrapper a:hover:after,
+      html.js body.overlay.page-node-add-catalog-b-sections #overlay-close-wrapper a:hover:before,
+      html.js body.overlay.page-node-3227 #overlay-close-wrapper a:hover:after,
+      html.js body.overlay.page-node-3227 #overlay-close-wrapper a:hover:before,
+      html.js body.overlay.page-node-5205 #overlay-close-wrapper a:hover:after,
+      html.js body.overlay.page-node-5205 #overlay-close-wrapper a:hover:before,
+      html.js body.overlay.page-node-3239 #overlay-close-wrapper a:hover:after, html.js body.overlay.page-node-3239 #overlay-close-wrapper a:hover:before {
+        background-color: #eeeeee; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-close-wrapper a:after,
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-close-wrapper a:after,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-close-wrapper a:before,
+      html.js body.overlay.node-type-catalog-b-sections #overlay-close-wrapper a:after,
+      html.js body.overlay.node-type-catalog-b-sections #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-add-catalog-b-sections #overlay-close-wrapper a:after,
+      html.js body.overlay.page-node-add-catalog-b-sections #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-3227 #overlay-close-wrapper a:after,
+      html.js body.overlay.page-node-3227 #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-5205 #overlay-close-wrapper a:after,
+      html.js body.overlay.page-node-5205 #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-3239 #overlay-close-wrapper a:after, html.js body.overlay.page-node-3239 #overlay-close-wrapper a:before {
+        content: " ";
+        width: 7px;
+        height: 30px;
+        background-color: #999999;
+        position: absolute;
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+        left: 0;
+        display: inline-block;
+        transition: background-color 0.3s; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-close-wrapper a:before,
+      html.js body.overlay.node-type-catalog-b-sections #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-add-catalog-b-sections #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-3227 #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-5205 #overlay-close-wrapper a:before,
+      html.js body.overlay.page-node-3239 #overlay-close-wrapper a:before {
+        -webkit-transform: rotate(135deg);
+                transform: rotate(135deg); }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-content,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-content,
+  html.js body.overlay.node-type-catalog-b-sections #overlay-content,
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay-content,
+  html.js body.overlay.page-node-3227 #overlay-content,
+  html.js body.overlay.page-node-5205 #overlay-content,
+  html.js body.overlay.page-node-3239 #overlay-content {
+    background: none;
+    color: #FFFFFF;
+    padding-top: 0; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-content .tabs,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-content .tabs,
+    html.js body.overlay.node-type-catalog-b-sections #overlay-content .tabs,
+    html.js body.overlay.page-node-add-catalog-b-sections #overlay-content .tabs,
+    html.js body.overlay.page-node-3227 #overlay-content .tabs,
+    html.js body.overlay.page-node-5205 #overlay-content .tabs,
+    html.js body.overlay.page-node-3239 #overlay-content .tabs {
+      display: none; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .container,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .container,
+  html.js body.overlay.node-type-catalog-b-sections #content .container,
+  html.js body.overlay.page-node-add-catalog-b-sections #content .container,
+  html.js body.overlay.page-node-3227 #content .container,
+  html.js body.overlay.page-node-5205 #content .container,
+  html.js body.overlay.page-node-3239 #content .container {
+    width: inherit;
+    padding: 0 6px; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label,
+  html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-products-and-specs > div > label,
+  html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-specs-from-products > div > label,
+  html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-products-and-specs > div > label,
+  html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-specs-from-products > div > label,
+  html.js body.overlay.page-node-3227 #content .field-name-field-products-and-specs > div > label,
+  html.js body.overlay.page-node-3227 #content .field-name-field-specs-from-products > div > label,
+  html.js body.overlay.page-node-5205 #content .field-name-field-products-and-specs > div > label,
+  html.js body.overlay.page-node-5205 #content .field-name-field-specs-from-products > div > label,
+  html.js body.overlay.page-node-3239 #content .field-name-field-products-and-specs > div > label, html.js body.overlay.page-node-3239 #content .field-name-field-specs-from-products > div > label {
+    font-size: 26px;
+    font-family: "HelveticaNeueLTStd-Th"; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label .form-required,
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label .form-required,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label .form-required,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label .form-required,
+    html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-products-and-specs > div > label .form-required,
+    html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-specs-from-products > div > label .form-required,
+    html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-products-and-specs > div > label .form-required,
+    html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-specs-from-products > div > label .form-required,
+    html.js body.overlay.page-node-3227 #content .field-name-field-products-and-specs > div > label .form-required,
+    html.js body.overlay.page-node-3227 #content .field-name-field-specs-from-products > div > label .form-required,
+    html.js body.overlay.page-node-5205 #content .field-name-field-products-and-specs > div > label .form-required,
+    html.js body.overlay.page-node-5205 #content .field-name-field-specs-from-products > div > label .form-required,
+    html.js body.overlay.page-node-3239 #content .field-name-field-products-and-specs > div > label .form-required, html.js body.overlay.page-node-3239 #content .field-name-field-specs-from-products > div > label .form-required {
+      visibility: hidden; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label .form-required:after,
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label .form-required:after,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label .form-required:after,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label .form-required:after,
+      html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-products-and-specs > div > label .form-required:after,
+      html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-specs-from-products > div > label .form-required:after,
+      html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-products-and-specs > div > label .form-required:after,
+      html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-specs-from-products > div > label .form-required:after,
+      html.js body.overlay.page-node-3227 #content .field-name-field-products-and-specs > div > label .form-required:after,
+      html.js body.overlay.page-node-3227 #content .field-name-field-specs-from-products > div > label .form-required:after,
+      html.js body.overlay.page-node-5205 #content .field-name-field-products-and-specs > div > label .form-required:after,
+      html.js body.overlay.page-node-5205 #content .field-name-field-specs-from-products > div > label .form-required:after,
+      html.js body.overlay.page-node-3239 #content .field-name-field-products-and-specs > div > label .form-required:after, html.js body.overlay.page-node-3239 #content .field-name-field-specs-from-products > div > label .form-required:after {
+        content: "select all";
+        visibility: visible;
+        color: #FFFFFF;
+        font-size: 14px;
+        display: inline-block;
+        cursor: pointer;
+        text-align: left; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label .form-required.deselect:after,
+      html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-products-and-specs > div > label .form-required.deselect:after,
+      html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-specs-from-products > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-products-and-specs > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-specs-from-products > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-3227 #content .field-name-field-products-and-specs > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-3227 #content .field-name-field-specs-from-products > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-5205 #content .field-name-field-products-and-specs > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-5205 #content .field-name-field-specs-from-products > div > label .form-required.deselect:after,
+      html.js body.overlay.page-node-3239 #content .field-name-field-products-and-specs > div > label .form-required.deselect:after, html.js body.overlay.page-node-3239 #content .field-name-field-specs-from-products > div > label .form-required.deselect:after {
+        content: "deselect all"; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-products-and-specs > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-specs-from-products > div > label .form-required:hover:after,
+      html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-products-and-specs > div > label .form-required:hover:after,
+      html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-specs-from-products > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-products-and-specs > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-specs-from-products > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-3227 #content .field-name-field-products-and-specs > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-3227 #content .field-name-field-specs-from-products > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-5205 #content .field-name-field-products-and-specs > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-5205 #content .field-name-field-specs-from-products > div > label .form-required:hover:after,
+      html.js body.overlay.page-node-3239 #content .field-name-field-products-and-specs > div > label .form-required:hover:after, html.js body.overlay.page-node-3239 #content .field-name-field-specs-from-products > div > label .form-required:hover:after {
+        text-decoration: underline; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs,
+  html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs,
+  html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs,
+  html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs,
+  html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs,
+  html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs {
+    overflow: hidden; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+  html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+  html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+  html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+  html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+  html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und {
+    width: 13%;
+    float: left;
+    position: relative;
+    min-height: 220px;
+    cursor: pointer;
+    margin-right: 11px;
+    text-align: center;
+    transition: opacity 0.3s; }
+    @media (max-width: 920px) {
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+      html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+      html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+      html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+      html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und,
+      html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und {
+        width: 15%; } }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und label,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und label,
+    html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und label,
+    html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und label,
+    html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und label,
+    html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und label,
+    html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und label {
+      cursor: pointer;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column-reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und img,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und img,
+    html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und img,
+    html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und img,
+    html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und img,
+    html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und img,
+    html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und img {
+      height: 100px;
+      width: auto;
+      margin-bottom: 20px; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled,
+    html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled,
+    html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled,
+    html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled,
+    html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled,
+    html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled {
+      opacity: .4;
+      cursor: default; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled label,
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled span,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled label,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled span,
+      html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled label,
+      html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled span,
+      html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled label,
+      html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled span,
+      html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled label,
+      html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled span,
+      html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled label,
+      html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled span,
+      html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled label, html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.disabled span {
+        cursor: default; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.active,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.active,
+    html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.active,
+    html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.active,
+    html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.active,
+    html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.active,
+    html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und.active {
+      opacity: 1; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child,
+    html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child,
+    html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child,
+    html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child,
+    html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child,
+    html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child {
+      position: absolute;
+      top: 96px;
+      left: 330px;
+      border: none;
+      background: none; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label,
+      html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label,
+      html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label,
+      html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label,
+      html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label,
+      html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label {
+        font-size: 0; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:before,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:before,
+      html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:before,
+      html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:before,
+      html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:before,
+      html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:before,
+      html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:before {
+        content: "clear selection";
+        font-size: 14px;
+        line-height: 24px;
+        margin: 10px 0 0 -15px;
+        display: inline-block;
+        cursor: pointer;
+        text-align: left; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:hover:before,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:hover:before,
+      html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:hover:before,
+      html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:hover:before,
+      html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:hover:before,
+      html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:hover:before,
+      html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und:first-child > label:hover:before {
+        text-decoration: underline; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und input[type="radio"],
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und input[type="radio"],
+    html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und input[type="radio"],
+    html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und input[type="radio"],
+    html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und input[type="radio"],
+    html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und input[type="radio"],
+    html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und .form-item-field-products-and-specs-und input[type="radio"] {
+      display: none; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-products-and-specs-und label .views-field-title,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-products-and-specs-und label .views-field-title,
+  html.js body.overlay.node-type-catalog-b-sections #content #edit-field-products-and-specs-und label .views-field-title,
+  html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-products-and-specs-und label .views-field-title,
+  html.js body.overlay.page-node-3227 #content #edit-field-products-and-specs-und label .views-field-title,
+  html.js body.overlay.page-node-5205 #content #edit-field-products-and-specs-und label .views-field-title,
+  html.js body.overlay.page-node-3239 #content #edit-field-products-and-specs-und label .views-field-title {
+    top: 160px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: lowercase; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .field-name-field-specs-from-products,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-catalog-reference,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .field-name-field-specs-from-products,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-catalog-reference,
+  html.js body.overlay.node-type-catalog-b-sections #content .field-name-field-specs-from-products,
+  html.js body.overlay.node-type-catalog-b-sections #content #edit-field-catalog-reference,
+  html.js body.overlay.page-node-add-catalog-b-sections #content .field-name-field-specs-from-products,
+  html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-catalog-reference,
+  html.js body.overlay.page-node-3227 #content .field-name-field-specs-from-products,
+  html.js body.overlay.page-node-3227 #content #edit-field-catalog-reference,
+  html.js body.overlay.page-node-5205 #content .field-name-field-specs-from-products,
+  html.js body.overlay.page-node-5205 #content #edit-field-catalog-reference,
+  html.js body.overlay.page-node-3239 #content .field-name-field-specs-from-products,
+  html.js body.overlay.page-node-3239 #content #edit-field-catalog-reference {
+    display: none; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-specs-from-products,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-specs-from-products,
+  html.js body.overlay.node-type-catalog-b-sections #content #edit-field-specs-from-products,
+  html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-specs-from-products,
+  html.js body.overlay.page-node-3227 #content #edit-field-specs-from-products,
+  html.js body.overlay.page-node-5205 #content #edit-field-specs-from-products,
+  html.js body.overlay.page-node-3239 #content #edit-field-specs-from-products {
+    overflow: hidden; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-specs-from-products-und,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-specs-from-products-und,
+  html.js body.overlay.node-type-catalog-b-sections #content #edit-field-specs-from-products-und,
+  html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-specs-from-products-und,
+  html.js body.overlay.page-node-3227 #content #edit-field-specs-from-products-und,
+  html.js body.overlay.page-node-5205 #content #edit-field-specs-from-products-und,
+  html.js body.overlay.page-node-3239 #content #edit-field-specs-from-products-und {
+    display: none;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-specs-from-products-und > .form-type-checkbox,
+    html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-specs-from-products-und > .form-type-checkbox,
+    html.js body.overlay.node-type-catalog-b-sections #content #edit-field-specs-from-products-und > .form-type-checkbox,
+    html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-specs-from-products-und > .form-type-checkbox,
+    html.js body.overlay.page-node-3227 #content #edit-field-specs-from-products-und > .form-type-checkbox,
+    html.js body.overlay.page-node-5205 #content #edit-field-specs-from-products-und > .form-type-checkbox,
+    html.js body.overlay.page-node-3239 #content #edit-field-specs-from-products-und > .form-type-checkbox {
+      width: 33.333333333%;
+      position: relative; }
+      html.js body.overlay.page-node-delete.node-type--add-a-catalog #content #edit-field-specs-from-products-und > .form-type-checkbox label,
+      html.js body.overlay.page-node-edit.node-type--add-a-catalog #content #edit-field-specs-from-products-und > .form-type-checkbox label,
+      html.js body.overlay.node-type-catalog-b-sections #content #edit-field-specs-from-products-und > .form-type-checkbox label,
+      html.js body.overlay.page-node-add-catalog-b-sections #content #edit-field-specs-from-products-und > .form-type-checkbox label,
+      html.js body.overlay.page-node-3227 #content #edit-field-specs-from-products-und > .form-type-checkbox label,
+      html.js body.overlay.page-node-5205 #content #edit-field-specs-from-products-und > .form-type-checkbox label,
+      html.js body.overlay.page-node-3239 #content #edit-field-specs-from-products-und > .form-type-checkbox label {
+        cursor: pointer; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #content .form-actions,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #content .form-actions,
+  html.js body.overlay.node-type-catalog-b-sections #content .form-actions,
+  html.js body.overlay.page-node-add-catalog-b-sections #content .form-actions,
+  html.js body.overlay.page-node-3227 #content .form-actions,
+  html.js body.overlay.page-node-5205 #content .form-actions,
+  html.js body.overlay.page-node-3239 #content .form-actions {
+    text-align: center; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #header_upper,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #header,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #references,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #overlay-tabs,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #edit-preview,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #specs,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #search_specs,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #search_specs + .container,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #footer_upper,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #footer,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #edit-field-include-pdf-covers,
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #edit-field-include-pdf-brand,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #header_upper,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #header,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #references,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #overlay-tabs,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #edit-preview,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #specs,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #search_specs,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #search_specs + .container,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #footer_upper,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #footer,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #edit-field-include-pdf-covers,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #edit-field-include-pdf-appendix,
+  html.js body.overlay.page-node-edit.node-type--add-a-catalog #edit-field-include-pdf-brand,
+  html.js body.overlay.node-type-catalog-b-sections #header_upper,
+  html.js body.overlay.node-type-catalog-b-sections #header,
+  html.js body.overlay.node-type-catalog-b-sections #references,
+  html.js body.overlay.node-type-catalog-b-sections #overlay-tabs,
+  html.js body.overlay.node-type-catalog-b-sections #edit-preview,
+  html.js body.overlay.node-type-catalog-b-sections #specs,
+  html.js body.overlay.node-type-catalog-b-sections #search_specs,
+  html.js body.overlay.node-type-catalog-b-sections #search_specs + .container,
+  html.js body.overlay.node-type-catalog-b-sections #footer_upper,
+  html.js body.overlay.node-type-catalog-b-sections #footer,
+  html.js body.overlay.node-type-catalog-b-sections #edit-field-include-pdf-covers,
+  html.js body.overlay.node-type-catalog-b-sections #edit-field-include-pdf-brand,
+  html.js body.overlay.page-node-add-catalog-b-sections #header_upper,
+  html.js body.overlay.page-node-add-catalog-b-sections #header,
+  html.js body.overlay.page-node-add-catalog-b-sections #references,
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay-tabs,
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-preview,
+  html.js body.overlay.page-node-add-catalog-b-sections #specs,
+  html.js body.overlay.page-node-add-catalog-b-sections #search_specs,
+  html.js body.overlay.page-node-add-catalog-b-sections #search_specs + .container,
+  html.js body.overlay.page-node-add-catalog-b-sections #footer_upper,
+  html.js body.overlay.page-node-add-catalog-b-sections #footer,
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-field-include-pdf-covers,
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-field-include-pdf-brand,
+  html.js body.overlay.page-node-3227 #header_upper,
+  html.js body.overlay.page-node-3227 #header,
+  html.js body.overlay.page-node-3227 #references,
+  html.js body.overlay.page-node-3227 #overlay-tabs,
+  html.js body.overlay.page-node-3227 #edit-preview,
+  html.js body.overlay.page-node-3227 #specs,
+  html.js body.overlay.page-node-3227 #search_specs,
+  html.js body.overlay.page-node-3227 #search_specs + .container,
+  html.js body.overlay.page-node-3227 #footer_upper,
+  html.js body.overlay.page-node-3227 #footer,
+  html.js body.overlay.page-node-3227 #edit-field-include-pdf-covers,
+  html.js body.overlay.page-node-3227 #edit-field-include-pdf-brand,
+  html.js body.overlay.page-node-5205 #header_upper,
+  html.js body.overlay.page-node-5205 #header,
+  html.js body.overlay.page-node-5205 #references,
+  html.js body.overlay.page-node-5205 #overlay-tabs,
+  html.js body.overlay.page-node-5205 #edit-preview,
+  html.js body.overlay.page-node-5205 #specs,
+  html.js body.overlay.page-node-5205 #search_specs,
+  html.js body.overlay.page-node-5205 #search_specs + .container,
+  html.js body.overlay.page-node-5205 #footer_upper,
+  html.js body.overlay.page-node-5205 #footer,
+  html.js body.overlay.page-node-5205 #edit-field-include-pdf-covers,
+  html.js body.overlay.page-node-5205 #edit-field-include-pdf-brand,
+  html.js body.overlay.page-node-3239 #header_upper,
+  html.js body.overlay.page-node-3239 #header,
+  html.js body.overlay.page-node-3239 #references,
+  html.js body.overlay.page-node-3239 #overlay-tabs,
+  html.js body.overlay.page-node-3239 #edit-preview,
+  html.js body.overlay.page-node-3239 #specs,
+  html.js body.overlay.page-node-3239 #search_specs,
+  html.js body.overlay.page-node-3239 #search_specs + .container,
+  html.js body.overlay.page-node-3239 #footer_upper,
+  html.js body.overlay.page-node-3239 #footer,
+  html.js body.overlay.page-node-3239 #edit-field-include-pdf-covers,
+  html.js body.overlay.page-node-3239 #edit-field-include-pdf-brand {
+    display: none; }
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay {
+    margin-top: 50px; }
+  html.js body.overlay.page-node-add-catalog-b-sections .form-item-title,
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-actions,
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay-title-wrapper,
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-field-edit-a-section {
+    display: none; }
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-field-add-a-section label {
+    font-family: "HelveticaNeueLTStd-Th";
+    font-size: 40px;
+    font-weight: lighter;
+    cursor: default; }
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-field-add-a-section input {
+    display: none; }
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-actions {
+    float: none; }
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-field-products-and-specs label {
+    margin-bottom: 50px; }
+  html.js body.overlay.page-node-add-catalog-b-sections #overlay-titlebar {
+    margin: 0; }
+  html.js body.overlay.page-node-add-catalog-b-sections .tech-chapter {
+    position: relative;
+    margin: 20px 0; }
+    html.js body.overlay.page-node-add-catalog-b-sections .tech-chapter label {
+      cursor: pointer; }
+  html.js body.overlay.page-node-add-catalog-b-sections #edit-field-add-technology-chapter {
+    position: absolute;
+    z-index: 0;
+    visibility: hidden; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections h1 {
+    visibility: hidden; }
+    html.js body.overlay.page-node-edit.node-type-catalog-b-sections h1 em {
+      visibility: visible; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #edit-delete,
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections .form-item-title,
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #edit-field-add-a-section {
+    display: none; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #edit-field-edit-a-section label {
+    font-family: "HelveticaNeueLTStd-Th";
+    font-size: 40px;
+    font-weight: lighter;
+    cursor: default; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #edit-field-edit-a-section input {
+    display: none; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #edit-field-specs-from-products {
+    display: block; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #content #edit-field-specs-from-products-und {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #overlay {
+    margin-top: 50px; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #edit-actions {
+    float: none; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #overlay-titlebar {
+    margin: 0; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections .tech-chapter, html.js body.overlay.page-node-edit.node-type-catalog-b-sections .select-all, #edit-field-specs-from-products .select-all {
+    position: relative;
+    margin: 20px 0; }
+    html.js body.overlay.page-node-edit.node-type-catalog-b-sections .tech-chapter label {
+      cursor: pointer; }
+  html.js body.overlay.page-node-edit.node-type-catalog-b-sections #edit-field-add-technology-chapter {
+    position: absolute;
+    z-index: 0;
+    visibility: hidden; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog h1 {
+    font-style: normal; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog h1 em {
+      font-style: italic; }
+  html.js body.overlay.page-node-delete.node-type--add-a-catalog #node-delete-confirm {
+    float: left; }
+    html.js body.overlay.page-node-delete.node-type--add-a-catalog #node-delete-confirm > div {
+      font-size: 14px; }
+  html.js body.overlay.page-node-delete.node-type-catalog-b-sections form {
+    float: left; }
+    html.js body.overlay.page-node-delete.node-type-catalog-b-sections form > div {
+      font-size: 14px; }
+  html.js body.overlay.page-node-edit h1 {
+    font-style: italic; }
+    html.js body.overlay.page-node-edit h1 em {
+      font-style: normal; }
+  html.js body.overlay.page-node-edit .form-item-title, html.js body.overlay.page-node-edit .form-actions {
+    float: left; }
+  html.js body.overlay.page-node-edit #edit-delete,
+  html.js body.overlay.page-node-edit #edit-field-specs-quantity,
+  html.js body.overlay.page-node-edit #overlay-title-wrapper {
+    display: none; }
+  html.js body.overlay.page-node-edit #edit-field-rename-a-catalog label {
+    font-family: "HelveticaNeueLTStd-Th";
+    font-size: 40px;
+    font-weight: lighter;
+    cursor: default; }
+  html.js body.overlay.page-node-edit #edit-field-rename-a-catalog input {
+    display: none; }
+  html.js body.overlay.page-node-edit #edit-field-rename-subtitle label {
+    font-family: "HelveticaNeueLTStd-Th";
+    font-size: 14px;
+    margin-bottom: 50px;
+    cursor: default; }
+  html.js body.overlay.page-node-edit #edit-field-rename-subtitle input {
+    display: none; }
+  html.js body.overlay.page-node-edit #edit-field-products-and-specs label {
+    margin-bottom: 50px; }
+  html.js body.overlay.page-node-3229 #overlay, html.js body.overlay.page-node-3228 #overlay {
+    background-color: white;
+    width: 70%;
+    margin-top: 10%;
+    position: relative;
+    border-radius: 10px;
+    padding: 30px; }
+  html.js body.overlay.page-node-3229 #overlay-close-wrapper, html.js body.overlay.page-node-3228 #overlay-close-wrapper {
+    position: absolute; }
+    html.js body.overlay.page-node-3229 #overlay-close-wrapper a, html.js body.overlay.page-node-3228 #overlay-close-wrapper a {
+      position: absolute;
+      top: 8px;
+      right: 5px;
+      background: none;
+      width: 25px;
+      height: 25px; }
+      html.js body.overlay.page-node-3229 #overlay-close-wrapper a:hover:after, html.js body.overlay.page-node-3229 #overlay-close-wrapper a:hover:before, html.js body.overlay.page-node-3228 #overlay-close-wrapper a:hover:after, html.js body.overlay.page-node-3228 #overlay-close-wrapper a:hover:before {
+        background-color: #eeeeee; }
+      html.js body.overlay.page-node-3229 #overlay-close-wrapper a:after, html.js body.overlay.page-node-3229 #overlay-close-wrapper a:before, html.js body.overlay.page-node-3228 #overlay-close-wrapper a:after, html.js body.overlay.page-node-3228 #overlay-close-wrapper a:before {
+        content: " ";
+        width: 7px;
+        height: 30px;
+        background-color: #999999;
+        position: absolute;
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+        left: 0;
+        display: inline-block;
+        transition: background-color 0.3s; }
+      html.js body.overlay.page-node-3229 #overlay-close-wrapper a:before, html.js body.overlay.page-node-3228 #overlay-close-wrapper a:before {
+        -webkit-transform: rotate(135deg);
+                transform: rotate(135deg); }
+  html.js body.overlay.page-node-3229 #overlay-titlebar, html.js body.overlay.page-node-3228 #overlay-titlebar {
+    margin-top: 0; }
+  html.js body.overlay.page-node-3229 #overlay-titlebar h1, html.js body.overlay.page-node-3228 #overlay-titlebar h1 {
+    color: #333333; }
+  html.js body.overlay.page-node-3229 #content, html.js body.overlay.page-node-3228 #content {
+    margin-top: 0; }
+  html.js body.overlay.page-node-3229 .field-type-text-with-summary, html.js body.overlay.page-node-3228 .field-type-text-with-summary {
+    overflow: scroll;
+    height: 50vh;
+    padding-right: 20px; }
+  html.js body.overlay.page-node-3229 #content p, html.js body.overlay.page-node-3228 #content p {
+    color: #333333; }
+  html.js body.overlay.page-node-3229 #content h1, html.js body.overlay.page-node-3228 #content h1 {
+    margin-bottom: 30px; }
+  html.js body.overlay.page-node-3229 #overlay-title-wrapper,
+  html.js body.overlay.page-node-3229 #header_upper,
+  html.js body.overlay.page-node-3229 #header,
+  html.js body.overlay.page-node-3229 #references,
+  html.js body.overlay.page-node-3229 #overlay-tabs,
+  html.js body.overlay.page-node-3229 #edit-preview,
+  html.js body.overlay.page-node-3229 #specs,
+  html.js body.overlay.page-node-3229 #search_specs,
+  html.js body.overlay.page-node-3229 #search_specs + .container,
+  html.js body.overlay.page-node-3229 #footer_upper,
+  html.js body.overlay.page-node-3229 #footer,
+  html.js body.overlay.page-node-3229 .tabs, html.js body.overlay.page-node-3228 #overlay-title-wrapper,
+  html.js body.overlay.page-node-3228 #header_upper,
+  html.js body.overlay.page-node-3228 #header,
+  html.js body.overlay.page-node-3228 #references,
+  html.js body.overlay.page-node-3228 #overlay-tabs,
+  html.js body.overlay.page-node-3228 #edit-preview,
+  html.js body.overlay.page-node-3228 #specs,
+  html.js body.overlay.page-node-3228 #search_specs,
+  html.js body.overlay.page-node-3228 #search_specs + .container,
+  html.js body.overlay.page-node-3228 #footer_upper,
+  html.js body.overlay.page-node-3228 #footer,
+  html.js body.overlay.page-node-3228 .tabs {
+    display: none; }
+  html.js body.overlay.page-node-3227 #overlay-title-wrapper,
+  html.js body.overlay.page-node-3227 #edit-overlay-control,
+  html.js body.overlay.page-node-3227 .main-footer,
+  html.js body.overlay.page-node-3227 .form-item label,
+  html.js body.overlay.page-node-3227 #overlay-disable-message {
+    display: none; }
+  html.js body.overlay.page-node-3227 #overlay-titlebar,
+  html.js body.overlay.page-node-3227 form .main-content {
+    margin: 0;
+    padding-top: 2%; }
+    @media (max-width: 1200px) {
+      html.js body.overlay.page-node-3227 #overlay-titlebar,
+      html.js body.overlay.page-node-3227 form .main-content {
+        padding-top: 5%; } }
+    html.js body.overlay.page-node-3227 #overlay-titlebar h1,
+    html.js body.overlay.page-node-3227 form .main-content h1 {
+      font-size: 40px;
+      color: #FFFFFF; }
+    html.js body.overlay.page-node-3227 #overlay-titlebar p,
+    html.js body.overlay.page-node-3227 form .main-content p {
+      font-size: 14px;
+      color: #FFFFFF;
+      margin-bottom: 50px; }
+  html.js body.overlay.page-node-3227 .inputs-wrapper {
+    overflow: hidden; }
+  html.js body.overlay.page-node-3227 .form-item {
+    float: left;
+    width: 27%;
+    margin-right: 2%; }
+    @media (max-width: 1200px) {
+      html.js body.overlay.page-node-3227 .form-item {
+        width: 31%; } }
+    @media (max-width: 768px) {
+      html.js body.overlay.page-node-3227 .form-item {
+        width: 100%; } }
+    html.js body.overlay.page-node-3227 .form-item input {
+      padding: 9px 0 5px 17px; }
+  html.js body.overlay.page-node-5205 #overlay-title-wrapper,
+  html.js body.overlay.page-node-5205 .main-footer,
+  html.js body.overlay.page-node-5205 #overlay-disable-message,
+  html.js body.overlay.page-node-3239 #overlay-title-wrapper,
+  html.js body.overlay.page-node-3239 .main-footer,
+  html.js body.overlay.page-node-3239 #overlay-disable-message {
+    display: none; }
+  html.js body.overlay.page-node-5205 h1,
+  html.js body.overlay.page-node-3239 h1 {
+    font-size: 40px;
+    color: #FFFFFF; }
+  html.js body.overlay.page-node-5205 p,
+  html.js body.overlay.page-node-3239 p {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 50px; }
+  @media (max-width: 768px) {
+    html.js body.overlay #overlay {
+      min-width: 75%; } }
+  html.js body.overlay label {
+    cursor: default; }
+  html.js body.overlay input[type="text"],
+  html.js body.overlay input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 5px 0 8px 17px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: transparent; }
+  html.js body.overlay .not_visible {
+    display: none; }
+
+.overlay-modal-background {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.admin-menu .overlay-modal-background {
+  background-color: transparent; }
+
+.field-name-field-products-and-specs #edit-field-products-and-specs-und div.form-item:nth-child(4) .views-field-field-image {
+    background-image: url('/sites/default/files/athlonix-motor-no-logo.png');
+    height: 120px;
+    width: 124px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.field-name-field-products-and-specs #edit-field-products-and-specs-und div:nth-child(4) .views-field-field-image img {
+  display: none;
+}
+
+

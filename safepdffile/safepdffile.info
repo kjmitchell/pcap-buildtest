@@ -1,0 +1,4 @@
+name = Symmetri Safe PDF File
+description = Custom module for portescap catalog builder to safe PDF file name
+core = 7.x
+package = Symmetri

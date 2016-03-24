@@ -1,0 +1,5 @@
+name = Symmetri Overlay JS
+description = Custom module for portescap catalog builder to add js in the admin overlay
+core = 7.x
+package = Symmetri
+

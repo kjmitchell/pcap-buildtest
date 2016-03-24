@@ -1,0 +1,33 @@
+<?php 
+
+function downloadpdf_menu() {
+  $items = array();
+  $items['download/catalog'] = array( // change 'foo/myurl' to the url you want
+    'title' => 'Callback',
+    'type' => MENU_CALLBACK,
+    'page callback' => 'downloadpdf_callback',
+    'access arguments' => array( 'access content' )
+  );
+  return $items;
+}
+
+function downloadpdf_callback () {
+  $pdf = $_GET['pdf'];
+  $ref = $_GET['ref'];
+  $path = str_replace("index.php","",$_SERVER['ORIG_PATH_INFO']);
+  $path = $path.'sites/default/files/';
+  $file = "http://".$_SERVER['SERVER_NAME'].$path.$pdf;
+  $content = file_get_contents($file);
+
+  header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1
+  header('Pragma: no-cache');
+  header('Expires: 0'); // no cache
+  header("Content-Type: application/pdf");
+  header('Content-Disposition: attachment; filename="' . $pdf . '"');
+
+  echo $content;
+
+  header($ref);
+  die();
+  return $pdf;
+}

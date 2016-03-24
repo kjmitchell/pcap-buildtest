@@ -1,0 +1,114 @@
+.mobile-only {
+	display:none;
+}
+
+.row-fluid [class*="span"].video-thumb {
+	min-height:118px;
+}
+.video-thumb h4 {
+	text-align:center;
+	cursor:pointer;
+	color:#999;
+	font-size:11px;
+	padding:0;
+	margin:0;
+}
+
+.desktop-only {
+	display:block;
+}
+
+.tab {
+	background-repeat:no-repeat;
+	background-image:url('../images/ie-tab.jpg');
+	border:none;
+	dipslay:block;
+	position:relative;
+	width:211px;
+	text-align:center;
+	padding:20px 0 10px 0;
+}
+
+.go {
+	background-repeat:no-repeat;
+	background-image:url('../images/ie-go.png');
+	width:42px;
+	height:20px;
+	border:none;
+	padding:0;
+	background-color:transparent;
+	display:block;
+}
+
+.related-item a h4 {
+	width:94px;
+}
+
+table.views-table {
+	width:100%;
+}
+
+.views-table tr td:first-child, .views-table tr th:first-child {
+	text-align:left;
+}
+
+#webform-component-left-column, #webform-component-right-column {
+	float:left;
+	position:relative;
+	width:47.5%;
+}
+
+.webform-client-form fieldset#webform-component-left-column {
+	margin-right:5%;
+}
+
+.webform-container-inline .form-radios {
+	display:block;
+}
+
+.row-fluid .view-application-list .span6 {
+	width:47.9%;
+}
+
+.view-distributor-locator .view-content {
+	position:relative;
+	clear:both;
+}
+.view-distributor-locator .view-filters {
+	height:150px;
+}
+
+#views-exposed-form-search-results-page input.form-submit {
+	height:18px;
+	width:17px;
+}
+
+.custom-menu {
+	z-index:500;
+}
+.related-item, .related-item h4, .related-item .go {
+	cursor:pointer;
+}
+
+.views-slideshow-controls-bottom {
+	top:380px;
+}
+
+.views-slideshow-pager-field-item {
+	width:20px;
+	height:20px;
+	float:left;
+	position:relative;
+}
+
+#homepage-slideshow {
+	height:381px;
+}
+
+th {
+	width:auto;
+}
+
+.product-item {
+	background-position-x: 0;
+}

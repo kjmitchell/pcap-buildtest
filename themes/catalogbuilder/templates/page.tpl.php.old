@@ -1,0 +1,169 @@
+<?php /*
+Regions:
+
+regions[header] = Header
+regions[menu_product] = Product Menu
+regions[menu_gallery] = Gallery Menu
+regions[menu_resources] = Resources Menu
+regions[menu_company] = Company Menu
+regions[content] = Content
+regions[folders] = Folders
+regions[footer_menu] = Footer Menu
+regions[footer_social] = Footer Social Left
+regions[footer_social_right] = Footer Social Right
+regions[footer_lower] = Footer Lower
+regions[badges] = Badges
+
+*/ ?>
+
+<div id="page">
+	<div id="upper-header" class="black-backdrop">
+		<div id="upper-header-inner">
+			<div class="header-wrapper clearfix">
+				<div class="fl-left">
+					<?php if ($logo): ?>
+						<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+							<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+		    			</a>
+	    			<?php endif; ?>
+				</div>
+
+				<div class="fl-right">
+					<?php print render($page['header']); ?>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="folders" style="display:none;">
+		<?php print render($page['folders']); ?>
+	</div>
+
+	<div id="main-nav">
+		<div class="nav-page black-backdrop" id="products-nav" style="display:none;">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="col-xs-12">
+						<?php print render($page['menu_product']); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav-page black-backdrop" id="gallery-nav" style="display:none;">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="col-xs-12">
+						<?php print render($page['menu_gallery']); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav-page black-backdrop" id="resources-nav" style="display:none;">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="col-xs-12">
+						<?php print render($page['menu_resources']); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav-page black-backdrop" id="company-nav" style="display:none;">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="col-xs-12">
+						<?php print render($page['menu_company']); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<?php if (isset($variables['node'])) { ?>
+	<div id="main-content">
+		<div id="page-content">
+			<?php /* nodes have striping that extend to infinity.  we do not include container and rows here. set them at node level. */
+			print render($page['content']); ?>
+		</div>
+	</div>
+<?php } else { /* if this is not a node, lets get a container and row into the page */ ?>
+	<div id="main-content">
+		<div id="page-content">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="col-xs-12">
+						<?php print render($page['content']); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<?php } ?>
+
+	<div id="folders" style="display:none;">
+		<div id="folders-inner-1">
+			<div id="folders-inner-2">
+				  <?php if ($messages): ?>
+				    <div id="folder-statuses"><div class="section clearfix">
+				      <?php print $messages; ?>
+				    </div></div> <!-- /.section, /#messages -->
+				  <?php endif; ?>
+				<?php print render($page['folders']);
+				/* use blocks & block templates to populate user profiles exposed to page */ ?>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer_upper" class="black-backdrop">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="col-sm-6 footer_upper_left">
+					<?php print render($page['footer_menu']); ?>
+				</div>
+				<div class="col-sm-6">
+					<div class="white-box footer_upper_right">
+						<div class="row-fluid">
+							<div class="col-sm-6 bottom_foot_l">
+								<?php print render($page['footer_social']); ?>
+							</div>
+							<div class="col-sm-6 bottom_foot_r">
+								<?php print render($page['footer_social_right']); ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer_lower">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="col-xs-12">
+					<?php print render($page['footer_lower']); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="badges_wrapper">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="col-xs-12">
+					<?php print render($page['badges']); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<?php if ($tabs): ?>
+		<div class="tabs">
+			<div class="container">
+				<?php print render($tabs); ?>
+			</div>
+		</div>
+	<?php endif; ?>
+
+</div>

@@ -1,0 +1,41 @@
+name = Portescap Theme
+description = A responsive theme for the portescap.com website
+core = 7.x
+
+stylesheets[all][] = css/fonts.css
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/portescap.css
+stylesheets[all][] = css/portescap1.css
+stylesheets[all][] = css/port-alt.css
+stylesheets[all][] = css/temp.css
+stylesheets[all][] = css/mobile.css
+stylesheets[all][] = css/catalogbuilder.css
+
+
+
+scripts[] = js/sym-custom.js
+scripts[] = js/alt-file.js
+
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+regions[header_upper] = Header Upper
+regions[header] = Header
+regions[mobile_menu] = Mobile Menu
+regions[mobile_menu_left] = Mobile Menu Left
+regions[mobile_menu_right] = Mobile Menu Right
+regions[social] = Social
+regions[content] = Content
+regions[product_page_specs] = Product Page Specs & Resources
+regions[spec_search] = Search by Spec page blocks
+regions[content_lower] = 3/4th Width Content
+regions[manual] = Manually rendered content
+
+regions[footer_upper] = Footer Upper
+regions[footer_left] = Footer Left
+regions[footer_right] = Footer Right
+
+
+
+
+

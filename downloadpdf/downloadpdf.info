@@ -1,0 +1,5 @@
+name = Symmetri Download PDF
+description = Custom module for portescap catalog builder to download a PDF
+core = 7.x
+package = Symmetri
+

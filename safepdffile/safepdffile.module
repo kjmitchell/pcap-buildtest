@@ -1,0 +1,62 @@
+<?php
+
+/**
+* Return files path in the server
+*
+**/
+function get_path(){
+    $path = str_replace("index.php","",$_SERVER['ORIG_PATH_INFO']);
+    $path = $path.'sites/default/files/';
+    return $_SERVER['DOCUMENT_ROOT'].$path; 
+}
+
+/**
+* Clean the filename from special chars 
+*
+**/
+function clean_file_name($fileName){
+    $fileName = str_replace(' ','_', $fileName);
+    $fileName = str_replace('-','_', $fileName);
+    $fileName = str_replace(':','_', $fileName);
+    $fileName = str_replace('|','_', $fileName);
+    return str_replace('___','_', $fileName);
+}
+
+/**
+* Renane the PDF file if the rename option is clicked in the catalog by user page
+*
+**/
+function safepdffile_node_presave($node){
+ 
+    if(isset($_GET['destination']) && ($_GET['destination']=='catalogbuilder/catalogs-by-user' || $_GET['destination']=='catalogbuilder/sections-by') ){
+        if($node->type == "_add_a_catalog"){
+            if(isset($node->original)){
+
+                $main_catalog_name = clean_file_name($node->original->title);
+
+                $main_catalog_name = $main_catalog_name."_".$node->original->nid.".pdf";
+
+                $new_file_name = clean_file_name($node->title); 
+
+                $new_file_name = $new_file_name."_".$node->nid.".pdf";
+                
+                $root = get_path();
+                
+                rename($root.$main_catalog_name, $root.$new_file_name);
+            }
+        }
+    }
+}
+
+/**
+* Delete file from the server
+*
+**/
+function safepdffile_node_delete($node){
+    
+    $file_name = clean_file_name($node->title); 
+    
+    $root = get_path();
+
+    unlink($root.$file_name."_".$node->nid.".pdf");
+}
